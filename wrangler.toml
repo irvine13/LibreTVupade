@@ -1,0 +1,15 @@
+# Cloudflare Pages/Workers configuration file
+
+name = "libretvupade-fixed" # 您可以根据需要更改项目名称
+compatibility_date = "2024-04-25" # 使用当前日期或您的项目兼容的日期
+
+# 添加 nodejs_compat 标志以启用 Node.js API 兼容性
+compatibility_flags = ["nodejs_compat"]
+
+# 如果您的项目有特定的构建命令或静态资源目录，请取消注释并配置以下部分：
+# [build]
+# command = "npm run build" # 示例构建命令
+# watch_dir = "src"         # 监视更改的目录
+
+# [site]
+# bucket = "./public"       # 静态资源所在的目录
